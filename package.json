@@ -1,0 +1,11 @@
+{
+  "name": "com.kiryonn.unity-searchables",
+  "version": "1.0.0",
+  "displayName": "Kiryonn Searchables",
+  "description": "This is a unity package that adds things related to searches such as search algorithms and search bars.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Kiryonn",
+    "url": "https://github.com/kiryonn"
+  }
+}
