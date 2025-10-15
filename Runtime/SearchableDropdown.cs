@@ -133,7 +133,7 @@ namespace Kiryonn.Searchables
 
 		private void OnMousePositionChanged<T>(T evt) where T : PointerEventBase<T>, new()
 		{
-			_mousePosition = evt.position;
+			_mousePosition = _scrollView.WorldToLocal(evt.position);
 			evt.StopPropagation();
 		}
 
